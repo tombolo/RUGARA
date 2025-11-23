@@ -11,6 +11,7 @@ import Under8 from './bots/DoubleOverWithanalysis.xml';
 import Dodo from './bots/Aiunder8-7-6-5recoveryunder3-4-5adjustable.xml';
 import Pepe from './bots/PROFITGAINERXVTscunentrypointbeforrun.xml';
 import Kuku from './bots/PROFITGAINERXVT.xml';
+import Updated from './bots/UPDATEDV1BYSTATEFX.xml';
 
 // Ensure Blockly is available globally
 const getBlockly = () => {
@@ -22,6 +23,13 @@ const getBlockly = () => {
 
 // Static bot configurations
 const STATIC_BOTS = {
+    auto_updated: {
+        id: 'auto_updated',
+        name: 'UPDATED V1 BY STATE FX',
+        xml: Updated,
+        timestamp: Date.now(),
+        save_type: save_types.LOCAL,
+    },
     auto_robot: {
         id: 'auto_robot',
         name: 'BRAM EVEN ODD PRINTER',
