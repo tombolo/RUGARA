@@ -16,6 +16,7 @@ import Dollarflipper from './buru/Dollarflipper2.0.xml';
 import Dollarminer from './buru/Dollarminer.xml';
 import EvenOddAutoSwitcher from './buru/EvenOddAutoSwitcher.xml';
 import VxAutoSwitcher from './buru/Vx.xml';
+import Dollardispenser from './buru/Dollardispenser.xml';
 
 
 // Ensure Blockly is available globally
@@ -29,6 +30,13 @@ const getBlockly = () => {
 // Static bot configurations - Master bots
 const STATIC_BOTS = {
 
+    dollar_dispenser: {
+        id: 'dollar_dispenser',
+        name: 'Dollar Dispenser',
+        xml: Dollardispenser,
+        timestamp: Date.now(),
+        save_type: save_types.LOCAL,
+    },
     dollar_flipper: {
         id: 'dollar_flipper',
         name: 'Dollar Flipper',
