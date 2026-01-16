@@ -1,9 +1,9 @@
 const AppIds = Object.freeze({
-    'deriv.app': '70344', // TODO: [app-link-refactor] - Remove backwards compatibility for `deriv.app`
-    'staging.deriv.app': '70344',
-    'app.deriv.com': '70344',
-    'staging-app.deriv.com': '70344',
-    'goon-puce.vercel.app': '70344',
+    'deriv.app': '121273',
+    'staging.deriv.app': '121273',
+    'app.deriv.com': '121273',
+    'staging-app.deriv.com': '121273',
+    'goon-puce.vercel.app': '121273',
 });
 
 export default AppIds;
